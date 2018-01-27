@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odbc", "Odbc\Odbc.csproj", "{7731C2C8-42F5-4646-8C81-F65193E051BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF", "EF\EF.csproj", "{C19E824D-C0F3-4844-AB13-25912A6EA62D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{7731C2C8-42F5-4646-8C81-F65193E051BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7731C2C8-42F5-4646-8C81-F65193E051BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7731C2C8-42F5-4646-8C81-F65193E051BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C19E824D-C0F3-4844-AB13-25912A6EA62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19E824D-C0F3-4844-AB13-25912A6EA62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19E824D-C0F3-4844-AB13-25912A6EA62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19E824D-C0F3-4844-AB13-25912A6EA62D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B9A4030-0FF9-437D-9952-D2CEB1525FE9}
 	EndGlobalSection
 EndGlobal
