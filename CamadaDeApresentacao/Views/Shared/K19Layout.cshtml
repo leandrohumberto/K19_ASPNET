@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+        @Styles.Render("~/Content/css")
+        @Styles.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <header>
+            <img src="http://www.k19.com.br/css/img/main-header-logo.png" alt="Logo vertical da K19" title="K19 Treinamentos" />
+            <span>K19 Treinamentos</span>            
+        </header>
+
+        <div id="toolbar">
+            @if (IsSectionDefined("Toolbar"))
+            {
+                @RenderSection("Toolbar", required: false)
+            }
+            else
+            {
+                <input type="button" value="Veja o seu número da sorte" onclick="location.href='/Sorte/Index'" />
+            }
+        </div>
+
+        <section id="main">
+            @RenderBody()
+        </section>
+
+        <footer>&copy; @DateTime.Now.Year - K19 Treinamentos</footer>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

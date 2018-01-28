@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF", "EF\EF.csproj", "{C19E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K19", "K19\K19.csproj", "{BCC44891-3735-4DC4-9D3A-3D90A074EDB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaDeApresentacao", "CamadaDeApresentacao\CamadaDeApresentacao.csproj", "{433C2338-48BF-4E42-9D27-BDA08AF901FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BCC44891-3735-4DC4-9D3A-3D90A074EDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCC44891-3735-4DC4-9D3A-3D90A074EDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCC44891-3735-4DC4-9D3A-3D90A074EDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433C2338-48BF-4E42-9D27-BDA08AF901FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433C2338-48BF-4E42-9D27-BDA08AF901FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433C2338-48BF-4E42-9D27-BDA08AF901FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433C2338-48BF-4E42-9D27-BDA08AF901FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<CamadaDeApresentacao.Models.Aluno>
+@{
+    ViewBag.Title = "Lista";
+}
+
+@section Toolbar
+{
+    <input type="search" placeholder="Digite o nome do aluno" />
+    <input type="button" value="Buscar" />
+}
+
+<h2>Tabela de Aluno</h2>
+
+<table>
+    <thead>
+        <tr>
+            <td>AlunoID</td>
+            <td>Nome</td>
+            <td>E-mail</td>
+        </tr>
+    </thead>
+
+    @foreach (var aluno in Model)
+    {
+        <tr>
+            <td>@aluno.AlunoID</td>
+            <td>@aluno.Nome</td>
+            <td>@aluno.Email</td>
+        </tr>
+    }
+</table>
+
