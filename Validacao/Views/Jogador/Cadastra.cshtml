@@ -1,0 +1,30 @@
+﻿@model Validacao.Models.Jogador
+@{
+    ViewBag.Title = "Cadastra";
+}
+
+<h2>Cadastra</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <div>@Html.LabelFor(m => m.Nome)</div>
+    @Html.EditorFor(m => m.Nome)
+    @Html.ValidationMessageFor(m => m.Nome)
+
+    <div>@Html.LabelFor(m => m.Numero)</div>
+    @Html.EditorFor(m => m.Numero)
+    @Html.ValidationMessageFor(m => m.Numero)
+
+    <div>@Html.LabelFor(m => m.Altura)</div>
+    @Html.EditorFor(m => m.Altura)
+    @Html.ValidationMessageFor(m => m.Altura)
+
+    <div><input type="submit" value="Cadastrar" /></div>
+
+    @section scripts {
+        @Scripts.Render("~/bundles/jqueryval")    
+    }
+}
+

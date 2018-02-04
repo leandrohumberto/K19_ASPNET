@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaDeApresentacao", "Cam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaDeControle", "CamadaDeControle\CamadaDeControle.csproj", "{05312EEB-6556-4EF3-9022-3764779AC1BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validacao", "Validacao\Validacao.csproj", "{9ACD8B6A-BF5F-421B-9293-EB0164CE474D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{05312EEB-6556-4EF3-9022-3764779AC1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05312EEB-6556-4EF3-9022-3764779AC1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05312EEB-6556-4EF3-9022-3764779AC1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACD8B6A-BF5F-421B-9293-EB0164CE474D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACD8B6A-BF5F-421B-9293-EB0164CE474D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACD8B6A-BF5F-421B-9293-EB0164CE474D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACD8B6A-BF5F-421B-9293-EB0164CE474D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
