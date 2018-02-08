@@ -1,0 +1,28 @@
+﻿@model Filtros.Models.Produto
+@{
+    ViewBag.Title = "Visualizar";
+}
+
+<h2>Visualizar</h2>
+
+<fieldset>
+    <legend>Produto</legend>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(p => p.Nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(p => p.Nome)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(p => p.Preco)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(p => p.Preco)
+    </div>
+
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</fieldset>
