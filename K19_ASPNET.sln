@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odbc", "Odbc\Odbc.csproj", "{7731C2C8-42F5-4646-8C81-F65193E051BC}"
 EndProject
@@ -22,6 +22,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TratamentoDeErros", "TratamentoDeErros\TratamentoDeErros.csproj", "{DCD911BB-7B96-4470-A050-6B7C3AA1F569}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{C5BDEEAC-F09E-4F62-8DAC-09A247F39FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMigrations", "EFMigrations\EFMigrations.csproj", "{2C00C626-3417-4F15-A7A0-A7AB11159B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstMigrations", "CodeFirstMigrations\CodeFirstMigrations.csproj", "{F13960AD-3322-4499-A78F-5A86391C80B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomizandoCodeFirstMigration", "CustomizandoCodeFirstMigration\CustomizandoCodeFirstMigration.csproj", "{D039FD0C-CA6D-44D6-81A5-9FB483F1D238}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{C5BDEEAC-F09E-4F62-8DAC-09A247F39FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5BDEEAC-F09E-4F62-8DAC-09A247F39FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5BDEEAC-F09E-4F62-8DAC-09A247F39FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C00C626-3417-4F15-A7A0-A7AB11159B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C00C626-3417-4F15-A7A0-A7AB11159B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C00C626-3417-4F15-A7A0-A7AB11159B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C00C626-3417-4F15-A7A0-A7AB11159B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13960AD-3322-4499-A78F-5A86391C80B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13960AD-3322-4499-A78F-5A86391C80B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13960AD-3322-4499-A78F-5A86391C80B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13960AD-3322-4499-A78F-5A86391C80B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D039FD0C-CA6D-44D6-81A5-9FB483F1D238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D039FD0C-CA6D-44D6-81A5-9FB483F1D238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D039FD0C-CA6D-44D6-81A5-9FB483F1D238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D039FD0C-CA6D-44D6-81A5-9FB483F1D238}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
