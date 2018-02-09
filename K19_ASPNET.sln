@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odbc", "Odbc\Odbc.csproj", "{7731C2C8-42F5-4646-8C81-F65193E051BC}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filtros", "Filtros\Filtros.csproj", "{0A6C06DF-82D6-4B50-82BD-F46DFF124EC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TratamentoDeErros", "TratamentoDeErros\TratamentoDeErros.csproj", "{DCD911BB-7B96-4470-A050-6B7C3AA1F569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{C5BDEEAC-F09E-4F62-8DAC-09A247F39FD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{DCD911BB-7B96-4470-A050-6B7C3AA1F569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCD911BB-7B96-4470-A050-6B7C3AA1F569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCD911BB-7B96-4470-A050-6B7C3AA1F569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5BDEEAC-F09E-4F62-8DAC-09A247F39FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BDEEAC-F09E-4F62-8DAC-09A247F39FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BDEEAC-F09E-4F62-8DAC-09A247F39FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BDEEAC-F09E-4F62-8DAC-09A247F39FD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
